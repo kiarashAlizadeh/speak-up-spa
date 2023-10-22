@@ -57,7 +57,7 @@ function NavBar() {
         <div className="flex items-center md:gap-x-5">
           <Link
             className="rounded-xl py-2 text-sm font-bold text-gray-900 transition duration-200 hover:bg-slate-200 lg:ml-auto lg:mr-3"
-            to="/signin"
+            to="/signIn"
           >
             <img src={user} alt="user" draggable="false" />
           </Link>
@@ -142,13 +142,13 @@ function NavBar() {
             <div className="pt-6">
               <Link
                 className="border-primary mb-3 block rounded-xl border-2 bg-gray-50 px-4 py-3 text-center text-xs font-semibold leading-loose hover:bg-gray-100"
-                to="/signin"
+                to="/signIn"
               >
                 Sign in
               </Link>
               <Link
                 className="mb-2 block rounded-xl bg-blue-600 px-4 py-3 text-center text-xs font-semibold leading-loose text-white hover:bg-blue-700"
-                to="/signup"
+                to="/signUp"
               >
                 Sign Up
               </Link>
