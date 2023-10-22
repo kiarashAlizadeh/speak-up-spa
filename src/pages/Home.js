@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
 
 function Home() {
@@ -5,6 +6,7 @@ function Home() {
     <>
       <NavBar />
       <h1>Home page</h1>
+      <Footer />
     </>
   )
 }
