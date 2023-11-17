@@ -5,6 +5,7 @@ import user from "../assets/icons/nav/user.svg"
 import downArrow from "../assets/icons/nav/down-arrow.svg"
 
 function NavBar() {
+  
   return (
     <header className="sticky top-0 z-50">
       <nav className="relative flex select-none items-center justify-between gap-x-2 bg-white/90 px-4 py-4">
@@ -141,7 +142,7 @@ function NavBar() {
           <div className="mt-auto">
             <div className="pt-6">
               <Link
-                className="border-primary mb-3 block rounded-xl border-2 bg-gray-50 px-4 py-3 text-center text-xs font-semibold leading-loose hover:bg-gray-100"
+                className="mb-3 block rounded-xl border-2 border-primary bg-gray-50 px-4 py-3 text-center text-xs font-semibold leading-loose hover:bg-gray-100"
                 to="/signIn"
               >
                 Sign in

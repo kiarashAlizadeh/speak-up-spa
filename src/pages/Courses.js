@@ -6,7 +6,7 @@ import Course from "../components/Course"
 import score1 from "../assets/images/home/popular-course/Score1.png"
 import score3 from "../assets/images/home/popular-course/Score3.png"
 
-// course pics
+// courses pics
 import course1 from "../assets/images/courses/1.png"
 import course2 from "../assets/images/courses/2.png"
 import course3 from "../assets/images/courses/3.png"
